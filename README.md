@@ -762,9 +762,10 @@ Just include the license text!
 - **📊 Kaggle Dataset:** [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ### 📱 Connect
-- **💼 LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+- **💼 LinkedIn:** [linkedin.com/in/Ridhanya R](www.linkedin.com/in/ridhanya-r-0353782a1
+)
 - **🐙 GitHub:** [github.com/ridhanya1515](https://github.com/ridhanya1515)
-- **📧 Email:** your.email@example.com
+- **📧 Email:**ridhanya111@gmail.com
 
 ---
 
