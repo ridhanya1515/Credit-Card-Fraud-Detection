@@ -21,8 +21,8 @@ Get started in 5 minutes:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/username/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+git clone https://github.com/ridhanya1515/Credit-Card-Fraud-Detection.git
+cd Credit-Card-Fraud-Detection
 
 # 2. Download dataset (from Kaggle)
 # Visit: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
@@ -214,8 +214,8 @@ credit_card_fraud_detection/
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/username/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+git clone https://github.com/ridhanya1515/Credit-Card-Fraud-Detection.git
+cd Credit-Card-Fraud-Detection
 ```
 
 ### Step 2: Download Dataset
