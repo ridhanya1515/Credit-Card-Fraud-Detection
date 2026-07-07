@@ -1,0 +1,49 @@
+name: Python Code Quality Check
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  python-quality:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10']
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Check Python syntax
+      run: |
+        python -m py_compile app.py
+        python -m py_compile train.py
+        python -m py_compile predict.py
+        python -m py_compile src/config.py
+        python -m py_compile src/utils.py
+        python -m py_compile src/preprocessing.py
+        python -m py_compile src/models.py
+        python -m py_compile src/evaluation.py
+
+    - name: Verify imports
+      run: |
+        python -c "import sys; sys.path.insert(0, '.'); from predict import FraudDetectionPredictor; print('✅ All imports successful')"
+
+    - name: Display Python version
+      run: python -c "import sys; print(f'Python {sys.version}')"
+
+    - name: Verify requirements
+      run: pip check
