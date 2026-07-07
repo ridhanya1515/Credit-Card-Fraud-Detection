@@ -757,13 +757,13 @@ Just include the license text!
 ## 🌟 Live Demo & Links
 
 ### 🔗 Important Links
-- **📌 GitHub Repository:** [github.com/username/credit-card-fraud-detection](https://github.com/username/credit-card-fraud-detection)
+- **📌 GitHub Repository:** [github.com/ridhanya1515/Credit-Card-Fraud-Detection](https://github.com/ridhanya1515/Credit-Card-Fraud-Detection)
 - **🌐 Live Demo:** [fraud-detection.streamlit.app](https://fraud-detection.streamlit.app)
 - **📊 Kaggle Dataset:** [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ### 📱 Connect
 - **💼 LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
-- **🐙 GitHub:** [github.com/username](https://github.com)
+- **🐙 GitHub:** [github.com/ridhanya1515](https://github.com/ridhanya1515)
 - **📧 Email:** your.email@example.com
 
 ---
